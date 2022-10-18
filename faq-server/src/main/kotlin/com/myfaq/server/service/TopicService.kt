@@ -6,7 +6,7 @@ import com.myfaq.server.repository.ITopicRepository
 import org.springframework.stereotype.Service
 
 @Service
-class TopicServiceImpl(val topicRepository: ITopicRepository) : IBasicService<Topic> {
+class TopicService(val topicRepository: ITopicRepository) : IBasicService<Topic> {
 
     override fun save(entity: Topic): Topic {
         return topicRepository.save(entity)

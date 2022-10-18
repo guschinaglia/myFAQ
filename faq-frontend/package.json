@@ -2,7 +2,7 @@
   "name": "faq-frontend",
   "version": "0.0.1",
   "description": "myFAQ Frontend",
-  "productName": "FAQ Frontned",
+  "productName": "FAQ Frontend",
   "author": "Gustavo Chinaglia <gustavo.chinaglia@ssi-schaefer.com>",
   "private": true,
   "scripts": {

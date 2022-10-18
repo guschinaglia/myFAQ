@@ -1,4 +1,4 @@
-# FAQ Frontned (faq-frontend)
+# FAQ Frontend (faq-frontend)
 
 myFAQ Frontend
 

@@ -1,11 +1,11 @@
-package com.gxtech.faq
+package com.myfaq.server
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class FaqApplication
+class ServerApplication
 
 fun main(args: Array<String>) {
-	runApplication<FaqApplication>(*args)
+	runApplication<ServerApplication>(*args)
 }

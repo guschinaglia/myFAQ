@@ -1,0 +1,15 @@
+server:
+  port: 9010
+spring:
+  application:
+    name: FAQ
+  output:
+    ansi:
+      enabled: always
+  # Database
+  data:
+    mongodb:
+      auto-index-creation: true
+      host: localhost
+      port: 27027
+      database: faq_db

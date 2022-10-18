@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  faq_pg_db:
+    container_name: faq_pg_db
+    hostname: faq_pg_db
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: faq_user
+      POSTGRES_PASSWORD: faq_pass

@@ -16,7 +16,7 @@
       </div>
     </q-page-container>
 
-    <q-footer class="transparent" bordered>
+    <q-footer class="bg-white" bordered>
       <q-toolbar>
         <span class="text-grey">Created By: Gustavo Chinaglia</span>
           <q-space />

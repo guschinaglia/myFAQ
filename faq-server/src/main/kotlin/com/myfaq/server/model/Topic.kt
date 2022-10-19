@@ -4,6 +4,7 @@ import org.springframework.data.annotation.Id
 import org.springframework.data.mongodb.core.mapping.Document
 import java.time.LocalDateTime
 import java.util.Calendar
+import java.util.Date
 
 @Document
 data class Topic(
@@ -15,5 +16,5 @@ data class Topic(
 
     var tags: List<String>? = null
 
-    val createdDate: LocalDateTime = LocalDateTime.now()
+    var createdDate: LocalDateTime = LocalDateTime.now()
 }

@@ -33,7 +33,7 @@ export default defineComponent({
   name: 'MainLayout',
   data() {
     return {
-      currentVersion: 'ALPHA_0.1' //TODO: Add this to process.env would be the best option
+      currentVersion: process.env.currentVersion //TODO: Add this to process.env would be the best option
     }
   },
 
